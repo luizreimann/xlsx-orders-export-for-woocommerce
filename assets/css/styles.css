@@ -1,0 +1,30 @@
+#awtd-order-filter {
+    font-family: 'Montserrat', Sans-Serif;
+}
+#awtd-order-filter-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+#awtd-order-filter-form .awtd-column-form{
+    width: 32%;
+}
+.awtd-button {
+    color: #62B9AF !important;
+    border-color: #62B9AF !important;
+}
+
+.awtd-button:hover, .awtd-button:focus, .awtd-button:active {
+    background-color: #62B9AF !important;
+    color: #fff !important;
+}
+#awtd-order-results {
+    overflow: auto;
+}
+#awtd-order-results table {
+    width: 1500px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
